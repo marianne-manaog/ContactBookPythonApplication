@@ -1,0 +1,12 @@
+[run]
+source = contact_book
+
+[report]
+omit =
+    contact_book/src/app.py
+    contact_book/src/data
+    contact_book/src/gui
+
+exclude_lines =
+    pragma: no cover
+    if __name__ == "__main__":
